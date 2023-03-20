@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-HomeScreen-with-Local-Storage.git/static/css/main.c6dc8e99.css",
-    "main.js": "/React-HomeScreen-with-Local-Storage.git/static/js/main.ca4263ee.js",
-    "static/media/day.jpg": "/React-HomeScreen-with-Local-Storage.git/static/media/day.4b0fc3fc9fd21d3a4d53.jpg",
-    "static/media/night.jpg": "/React-HomeScreen-with-Local-Storage.git/static/media/night.12616b172e3efbe37432.jpg",
-    "static/media/morning.jpg": "/React-HomeScreen-with-Local-Storage.git/static/media/morning.a1e50807fc69f4933006.jpg",
-    "index.html": "/React-HomeScreen-with-Local-Storage.git/index.html",
-    "main.c6dc8e99.css.map": "/React-HomeScreen-with-Local-Storage.git/static/css/main.c6dc8e99.css.map",
-    "main.ca4263ee.js.map": "/React-HomeScreen-with-Local-Storage.git/static/js/main.ca4263ee.js.map"
+    "main.css": "/React-HomeScreen-with-Local-Storage/static/css/main.5c13e9ef.css",
+    "main.js": "/React-HomeScreen-with-Local-Storage/static/js/main.ca4263ee.js",
+    "static/media/day.jpg": "/React-HomeScreen-with-Local-Storage/static/media/day.4b0fc3fc9fd21d3a4d53.jpg",
+    "static/media/night.jpg": "/React-HomeScreen-with-Local-Storage/static/media/night.12616b172e3efbe37432.jpg",
+    "static/media/morning.jpg": "/React-HomeScreen-with-Local-Storage/static/media/morning.a1e50807fc69f4933006.jpg",
+    "index.html": "/React-HomeScreen-with-Local-Storage/index.html",
+    "main.5c13e9ef.css.map": "/React-HomeScreen-with-Local-Storage/static/css/main.5c13e9ef.css.map",
+    "main.ca4263ee.js.map": "/React-HomeScreen-with-Local-Storage/static/js/main.ca4263ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6dc8e99.css",
+    "static/css/main.5c13e9ef.css",
     "static/js/main.ca4263ee.js"
   ]
 }
