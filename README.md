@@ -14,4 +14,5 @@ React Homescreen with Local Storage
  Link:
  
  
- Screenshot: ![homeScreen](https://user-images.githubusercontent.com/121173949/226355076-72b52217-c033-4d5c-aa5c-1ade3703a751.png)
+ Screenshot:
+ ![homeScreen](https://user-images.githubusercontent.com/121173949/226355076-72b52217-c033-4d5c-aa5c-1ade3703a751.png)
