@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css';
 import Time from './components/Time.js'
 import Greeting from './components/Greeting.js'
+import Greeting2 from './components/Greeting2.js'
 import Todo from './components/Todo';
 
 function App() {
@@ -34,9 +35,10 @@ function App() {
 
   useEffect(() => {
     setPeriod("")
-    document.body.classList.remove('morning')
-    document.body.classList.remove('day')
-    document.body.classList.remove('night')
+    //document.body.classList.remove('morning')
+    //document.body.classList.remove('day')
+    //document.body.classList.remove('night')
+    document.body.className = ''
     if (parseInt(currentHour) < 10) {
       setPeriod("Jó reggelt, ")
       document.body.classList.add('morning')
@@ -56,12 +58,13 @@ function App() {
     JSON.parse(localStorage.getItem("todoList"))
     if (todoList) {
       setTodoList(todoList)
-      console.log(todoList)
+      console.log("parsed")
     }
   }, [])
 
   useEffect(() => {
     localStorage.setItem("todoList", JSON.stringify(todoList))
+    console.log("added")
   }, [todoList])
 
 
@@ -75,10 +78,10 @@ function App() {
 
     setTodoList([...todoList, {
       todo: todoInput,
-      id: Math.random()
+      id: Math.floor(Math.random() *10000)
     }])
 
-    localStorage.setItem("todoList", JSON.stringify(todoList))
+    //localStorage.setItem("todoList", JSON.stringify(todoList))
   }
 
   const removeTodo = (id) => {
